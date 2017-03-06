@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        CSC 2410 Web Programming
+        Chapter 5 Lab
+        Part 1 - Bowler Registration
+
+        Author: Brandon Young
+        Date: 03/05/2017
+
+        Filename: BowlerRegistrationYoung.html
+        Supporting Files: RegisterBowlerYoung.php, bowlers.txt
+    -->
+    <meta charset="UTF-8">
+    <title>Bowler Registration</title>
+</head>
+<body>
+
+    <h1>Enter your information below to sign up for the tournament</h1>
+    <form name="registration" action="RegisterBowlerYoung.php" method="post">
+        <p><label for="name">Name:  </label>
+            <input type="text" name="name" />
+        </p>
+        <p><label for="age">Age: </label>
+            <input type="number" name="age" />
+        </p>
+        <p><label for="average">Average: </label>
+            <input type="number" name="average" />
+        </p>
+        <p><button type="submit" name="Submit" value="Send Form">Send Form</button>
+        </p>
+    </form>
+
+</body>
+</html>
